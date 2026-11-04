@@ -1,6 +1,6 @@
 # Asteroid Game
 
-Projeto do clássico jogo de arcade **Asteroids**, desenvolvido em Python com a biblioteca **Pygame**. O projeto utiliza o gerenciador de pacotes **uv**.
+Projeto do clássico jogo de arcade **Asteroids** para a plataforma boot.dev, desenvolvido em Python com a biblioteca **Pygame**. O projeto utiliza o gerenciador de pacotes **uv**.
 
 ## Funcionalidades 
 * **Controle da Nave:** Movimentação fluida com rotação e aceleração.
@@ -44,11 +44,6 @@ powershell -c "irm https://astral.sh | iex"
    ```bash
    uv run main.py
    ```
-
-##  Como Jogar
-* `W` / `S` ou `Seta para Cima` / `Seta para Baixo` — Mover a nave para frente/trás.
-* `A` / `D` ou `Seta para Esquerda` / `Seta para Direita` — Rotacionar a nave.
-* `Espaço` — Atirar.
 
 ##  Estrutura do Projeto
 * `main.py`: loop principal e inicialização.
