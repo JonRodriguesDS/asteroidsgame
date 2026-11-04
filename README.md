@@ -10,7 +10,7 @@ Projeto do clássico jogo de arcade **Asteroids**, desenvolvido em Python com a 
 * **Sistema de Pontuação:** Marcador simples para acompanhar o seu progresso durante a partida.
 
 ##  Tecnologias Utilizadas
-* **[Python](https://python.org)** (v3.12 ou superior)
+* **[Python](https://python.org)** (v3.13, a biblioteca pygame ainda não suporta 3.14)
 * **[Pygame-ce](https://github.org)** / **Pygame** (Para renderização 2D e física do jogo)
 * **[uv](https://github.com)** (Para gerenciamento de dependências e ambiente virtual)
 
@@ -51,8 +51,8 @@ powershell -c "irm https://astral.sh | iex"
 * `Espaço` — Atirar.
 
 ##  Estrutura do Projeto
-* `main.py`: Ponto de entrada do jogo (loop principal e inicialização).
-* `player.py`: Lógica do jogador, movimentação e tiros.
+* `main.py`: loop principal e inicialização.
+* `player.py`: Lógica do jogador, movimentação e tiro.
 * `asteroid.py` & `asteroidfield.py`: Comportamento, movimentação e divisão dos asteroides.
 * `circleshape.py`: Classe base para detecção de colisões baseada em círculos.
 * `constants.py`: Configurações globais do jogo (largura da tela, velocidade, cores, etc.).
